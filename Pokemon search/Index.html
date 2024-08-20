@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon Search API</title>
+  </head>
+  <body>
+    <h1>Pokemon Search</h1>
+    <div class="container">
+      <form role="search" id="search-form">
+        <label for="search-input">Search for a Pokemon</label>
+        <input id="search-input" placeholder="Enter Pokemon ID" required />
+        <button id="search-button">Search</button>
+      </form>
+
+      <div class="output>">
+        <div class="top-container">
+          <span id="pokemon-name"></span>
+          <span id="pokemon-id"></span>
+        </div>
+
+        <div class="size">
+          <div id="weight"></div>
+          <div id="height"></div>
+        </div>
+
+        <div id="sprite-container"></div>
+        <div id="types"></div>
+
+        <div class="bottom">
+          <div id="hp"></div>
+          <div id="attack"></div>
+          <div id="defense"></div>
+          <div id="special-attack"></div>
+          <div id="special-defense"></div>
+          <div id="speed"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

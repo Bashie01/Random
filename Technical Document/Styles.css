@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.apple_green{
+    color: rgb(25, 119, 25);
+}
+
+.apple_red{
+    color: rgb(187, 38, 38);
+}
+
+.orange_orange{
+    color: rgb(202, 151, 57);
+}
+
+.banana_yellow{
+    color: rgb(196, 196, 26);
+}
+
+.starwberrie_red{
+    color: rgb(187, 38, 38);
+}
+
+.pears_green{
+    color: rgb(25, 119, 25);
+}
+
+#fruit{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18;
+    text-decoration: underline;
+}
+
+.nav-link{
+    margin-top: 100px;
+    padding: 4px;
+    
+}
+
+.doctitle{
+    font-size: 25;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: rgb(132, 184, 226);
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
